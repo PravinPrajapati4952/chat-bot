@@ -1,0 +1,33 @@
+@media (max-width: 767px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        background-color: white;
+        color: black;
+    }
+    .header-section{
+        width: 100%;
+        height: 120px;
+        float: left;
+        background-color:rgb(33, 136, 226);
+    }
+    .header-section-left{
+        height: 100px;
+        width: 100%;
+        background-color: rgb(255, 0, 217); 
+        position: fixed; 
+    }
+    .header-section-name{
+        padding: 35px 0px 0px 40px;
+        font-size: 35px;
+        font-family: sans-serif;
+        text-shadow: 2px 3px 1px black;
+        color: aqua;
+    }
+    
+}
+

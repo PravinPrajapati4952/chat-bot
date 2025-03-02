@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: Arial, sans-serif; 
+}
+.header-section{
+    height: 100%;
+    width: 100%;
+}
+.header-top{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: linear-gradient(to right,  #00e5ff,#d500f9);
+}
+.profile-name-img{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.profile-name-img img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+.profile-name-img h2{
+    height: 30px;
+    width: 220px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.icon img{
+    height: 50px;
+    width: 50px;
+}
+.text{
+    height: 220px;
+    position: absolute;
+    right: 0;
+    left: 65%;
+    background-color: #d500f9;    
+    /* backdrop-filter: blur(30px);  */
+
+}
+.text .list{
+    padding-top: 15px;
+    padding-left: 30px;
+    list-style: none;
+}
+.list li{
+    padding-top: 15px;
+    font-size: 25px;
+}
+.details-section-content{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    z-index: -1;
+
+}
+.date-day-section{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.date-day{
+    height: 30px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00e5ff;
+    background-color: #333333;
+    position: static;
+}
+.date-day p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.details-section{
+    margin-left: 10px;
+    padding-bottom: 100px;
+}
+.chat-content{
+    height: auto;
+    width: 280px;
+    display: flex;
+    align-items: center;
+}
+/* .chat-img-profile{
+    height: 30px;
+    width: 30px;
+    background-image: url(photo/6.jpg);
+    background-position: 70%;
+    background-size: cover;
+    border-radius: 50%;
+}  */
+.chat-massage{
+    height: auto;
+    width: 220px;
+    color: black;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+.chat-massage p{
+    font-size: 15px;
+}
+.chat-content-right{
+    height: auto;
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: flex-end;
+}
+/* .chat-img-profile-right{
+    height: 30px;
+    width: 30px;
+    background-image: url(photo/5.jpg);
+    background-position: 70%;
+    background-size: cover;
+    border-radius: 50%;
+}   */
+.chat-massage-right{
+    height: auto;
+    width: 220px;
+    color: black;
+    background-color: #e3f2fd;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+.chat-massage-right p{
+    font-size: 15px;
+}
+.date-day-section1{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky; 
+    top: 80px;
+    left: 0;
+    z-index: 0;
+}
+.date-day1{
+    height: 30px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00e5ff;
+    background-color: #333333;
+}
+.date-day1 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chat-massage-typeing{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #0077b6;
+    background: rgba(62, 61, 61, 0.1);
+    backdrop-filter: blur(10px);
+} 
+.chat-typeing{
+    height: 40px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+.chat-typeing input{
+    height: 50px;
+    width: 350px;
+    border-radius: 50px;
+    font-size: 20px;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+}
+.chat-typeing .img{
+    height: 50px;
+    width: 50px;
+    background-color: #d500f9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.chat-typeing img{
+    height: 30px;
+    width: 30px;
+}
+.message{
+    width: 220px;
+    background-color: #e3f2fd;
+    padding: 5px 10px;
+    margin: 5px 8px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+

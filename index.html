@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Nested Divs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section class="header-section">
+        <div class="header-top">
+            <div class="chat-name">
+                CHAT-BOT
+            </div>
+            <div class="icon" onclick="toggleText()">
+                <img src="web-icon/menu.png" alt="">
+                <div class="text" id="text-content">
+                    <div class="list">
+                        <li>home</li>
+                        <li>about</li>
+                        <li>content</li>
+                        <li>setting</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-bar">
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchDivs()">
+                <img src="web-icon/search.png" alt="">
+            </div>
+        </div>
+        <div class="all-profile">
+            <div class="sub-box" onclick="openProfile('jayram')">
+                <img src="photo/6.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/6.jpg')"><p>jayram dhangar</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('laxmi')">
+                <img src="photo/12.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/12.jpg')"><p> laxmi didi</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('pranay')">
+                <img src="photo/1.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/1.jpg')"><p> pranay rawal</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('gajendra')">
+                <img src="photo/2.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/2.jpg')"><p> gajendra singh</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('ayan')">
+                <img src="photo/2.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/2.jpg')"><p> ayan khan</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('dhiraj')">
+                <img src="photo/10.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/10.jpg')"><p> dhiraj</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('krishna')">
+                <img src="photo/11.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/11.jpg')"><p> krishna prajapati</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('aaryan')">
+                <img src="photo/12.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/12.jpg')"><p> aaryan yadav</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('purvesh')">
+                <img src="photo/9.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/9.jpg')"><p>purvesh</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('raju')">
+                <img src="photo/4.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/4.jpg')"><p>raju verma</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('vinit')">
+                <img src="photo/7.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/7.jpg')"><p>vinit pansre</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('lakki')">
+                <img src="photo/6.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/6.jpg')"><p>lakki bavaniya</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('sagar')">
+                <img src="photo/7.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/7.jpg')"><p>sagar pathak</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('kunal')">
+                <img src="photo/9.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/9.jpg')"><p>kunal sathe</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('kanha')">
+                <img src="photo/9.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/9.jpg')"><p>kanha badnaware</p></a>
+            </div>
+            <div class="sub-box" onclick="openProfile('ritik')">
+                <img src="photo/7.jpg" alt="">
+                <a href="profile.html" onclick="setProfileImage('photo/7.jpg')"><p>ritik verma</p></a>
+            </div> 
+        </div>
+        <div class="icon-img">
+            <div class="icon2">
+                <img src="web-icon/home.png" alt="">
+                <img src="web-icon/telephone.png" alt="">
+                <img src="web-icon/add.png" alt="">
+                <img src="web-icon/send.png" alt="">
+                <img src="web-icon/user.png" alt="">
+            </div>
+        </div>
+   </section>
+
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
